@@ -1,0 +1,30 @@
+/* //load img as background and fit size*/
+body {
+  background-image: url('../src/7971.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+/* //transparent and blured background */
+.transparent {
+    background-color: transparent;
+    /* backdrop-filter: blur(10px); */
+}
+
+.scrollable {
+    overflow-y: scroll;
+}
+
+.big {
+    font-size: 2rem!important;
+}
+
+.h-30vh {
+    height: 30vh;
+}
+
+.h-90vh {
+    height: 85vh;
+}
